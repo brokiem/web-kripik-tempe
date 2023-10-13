@@ -29,7 +29,7 @@ function Navbar() {
             <nav class={"flex flex-row justify-between items-center"}>
                 <div id={"logo"}>
                     <img class={"w-[60px]"}
-                         src={"https://cdn.discordapp.com/attachments/1108708719178567750/1162226015431561267/pkwu_punya_Yanin_1.png?ex=653b2a53&is=6528b553&hm=f59985e7d321e9c491467e2cd41cc45cace698b1e25592debba0b69f05ac7fe5"}
+                         src={"logo.png"}
                          alt={"logo"}/>
                 </div>
                 <div id={"nav"} class={"flex gap-6"}>

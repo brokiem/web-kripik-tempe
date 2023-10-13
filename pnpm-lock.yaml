@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@types/node':
+    specifier: ^20.8.5
+    version: 20.8.5
   solid-js:
     specifier: ^1.8.1
     version: 1.8.1
@@ -24,7 +27,7 @@ devDependencies:
     version: 5.2.2
   vite:
     specifier: ^4.4.11
-    version: 4.4.11
+    version: 4.4.11(@types/node@20.8.5)
   vite-plugin-solid:
     specifier: ^2.7.1
     version: 2.7.1(solid-js@1.8.1)(vite@4.4.11)
@@ -641,6 +644,11 @@ packages:
     dependencies:
       '@babel/types': 7.23.0
     dev: true
+
+  /@types/node@20.8.5:
+    resolution: { integrity: sha512-SPlobFgbidfIeOYlzXiEjSYeIJiOCthv+9tSQVpvk4PAdIIc+2SmjNVzWXk9t0Y7dl73Zdf+OgXKHX9XtkqUpw== }
+    dependencies:
+      undici-types: 5.25.3
 
   /ansi-styles@3.2.1:
     resolution: { integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA== }
@@ -1377,6 +1385,9 @@ packages:
     hasBin: true
     dev: true
 
+  /undici-types@5.25.3:
+    resolution: { integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA== }
+
   /update-browserslist-db@1.0.13(browserslist@4.22.1):
     resolution: { integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg== }
     hasBin: true
@@ -1409,13 +1420,13 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.1
       solid-refresh: 0.5.3(solid-js@1.8.1)
-      vite: 4.4.11
+      vite: 4.4.11(@types/node@20.8.5)
       vitefu: 0.2.4(vite@4.4.11)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.4.11:
+  /vite@4.4.11(@types/node@20.8.5):
     resolution: { integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A== }
     engines: { node: ^14.18.0 || >=16.0.0 }
     hasBin: true
@@ -1443,6 +1454,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 20.8.5
       esbuild: 0.18.20
       postcss: 8.4.31
       rollup: 3.29.4
@@ -1458,7 +1470,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.11
+      vite: 4.4.11(@types/node@20.8.5)
     dev: true
 
   /wrappy@1.0.2:
