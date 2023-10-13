@@ -1,5 +1,3 @@
-import keripikImage from "./assets/keripik.png";
-
 function App() {
     return (
       <>
@@ -76,7 +74,7 @@ function Header() {
                             </button>
                         </div>
                     </div>
-                  <img class={"h-[300px] w-auto"} src={keripikImage}
+                  <img class={"h-[300px] w-auto"} src={"keripik.png"}
                          style={"filter: drop-shadow(0 0 70px #f5ca7e);"} alt={"logo"}/>
                 </div>
             </div>
