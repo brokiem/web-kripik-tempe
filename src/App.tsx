@@ -48,10 +48,10 @@ function Header() {
       <div id={"header"} class={"flex flex-col justify-center items-center mt-28"}>
         <div class={"md:flex flex-row items-center justify-center content-center gap-36"}>
           <div class={"flex flex-col gap-5"}>
-            <h1 class={"text-5xl font-semibold text-[rgba(30,30,37)] drop-shadow-md"}>Keripik Tempe <span
+            <h1 class={"text-5xl font-semibold text-[rgba(30,30,37)] [text-shadow:_2px_2px_2px_rgb(255_255_255_/_100%)] z-50"}>Keripik Tempe <span
               class={"text-[#d99846] text-6xl underline"}>Enak</span> dan <span
               class={"text-[#d99846] text-6xl underline"}>Sehat</span></h1>
-            <p class={"text-[#67676c] text-lg drop-shadow-sm"}>Keripik tempe yang dibuat dengan bahan-bahan pilihan dan
+            <p class={"text-black text-lg drop-shadow-sm z-50"}>Keripik tempe yang dibuat dengan bahan-bahan pilihan dan
               tanpa bahan pengawet. Cocok untuk
               cemilan sehari-hari.</p>
 
@@ -64,19 +64,19 @@ function Header() {
                     content.scrollIntoView({behavior: "smooth"})
                   }
                 }}
-                class={"bg-[#d99846] px-8 py-1.5 rounded-md w-fit text-white mt-7"}>
+                class={"bg-[#d99846] px-8 py-1.5 rounded-md w-fit text-white mt-7 z-50"}>
                 Lihat
               </button>
               <button
                 onClick={() => {
                   window.open("https://wa.me/6285738064586?text=Halo%20saya%20mau%20pesan%20keripik%20tempe")
                 }}
-                class={"border border-[#d99846] px-8 py-1.5 rounded-md w-fit text-[#d99846] mt-7"}>
+                class={"border border-[#d99846] px-8 py-1.5 rounded-md w-fit text-[#d99846] mt-7 z-50"}>
                 Pesan
               </button>
             </div>
           </div>
-          <img class={"h-[350px] w-auto hidden lg:block"} src={"keripik.png"}
+          <img class={"h-[350px] w-auto absolute top-0 right-0 lg:static lg:block z-0 mt-32 lg:mt-0 opacity-50 lg:opacity-100"} src={"keripik.png"}
                style={"filter: drop-shadow(0 0 70px #f5ca7e);"} alt={"logo"}/>
         </div>
       </div>
