@@ -12,7 +12,7 @@ function App() {
 
       <div class={"bg-white"}>
         <div id={"content"}
-             class={"flex flex-col items-center justify-center max-w-5xl min-h-screen mx-5 lg:mx-auto my-16 lg:my-0"}>
+             class={"flex flex-col items-center justify-center max-w-5xl min-h-screen mx-5 lg:mx-auto my-16"}>
           <Content/>
         </div>
 
@@ -87,9 +87,19 @@ function Header() {
 function Content() {
   return (
     <>
-      <div class={"mb-8"}>
-        <h1 class={"text-4xl font-semibold text-center text-[#d99846] tracking-wider"}>Keripik Tempe</h1>
-        <p class={"text-center"}>Variasi rasa keripik tempe yang kami jual</p>
+      <div class={"mt-4"}>
+        <h1 class={"text-4xl font-semibold text-center text-[#d99846] tracking-wider"}>Selamat Datang</h1>
+        <p class={"text-justify mt-3"}>
+          Kami menjual keripik tempe yang berkomitmen untuk memberikan produk yang berkualitas dan sehat. Keripik tempe kami dibuat dengan bahan-bahan pilihan dan tanpa bahan pengawet.        <br/>
+        <br/>
+          Kami menggunakan bahan-bahan berkualitas tinggi dan dipilih dengan teliti, termasuk tempe yang berkualitas baik sebagai bahan dasarnya. Hal ini memastikan bahwa produk kami memiliki rasa yang lezat dan kualitas yang unggul.        <br/>
+        <br/>
+        Dengan begitu, kami memberikan keripik tempe yang enak dan berkualitas tinggi tanpa mengorbankan kesegaran atau keamanan dengan menggunakan bahan-bahan pilihan dan tanpa bahan pengawet.</p>
+      </div>
+
+      <div class={"mb-8 mt-20"}>
+        <h1 class={"text-4xl font-semibold text-center text-[#d99846] tracking-wider"}>Varian</h1>
+        <p class={"text-center mt-3"}>Variasi rasa keripik tempe yang kami jual</p>
       </div>
 
       <div class={"grid grid-cols-1 lg:grid-cols-3 gap-4"}>
