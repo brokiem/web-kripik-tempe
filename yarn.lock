@@ -702,12 +702,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.8.5":
-  version: 20.8.9
-  resolution: "@types/node@npm:20.8.9"
+"@types/node@npm:^20.10.8":
+  version: 20.10.8
+  resolution: "@types/node@npm:20.10.8"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 6fb5604ac087c8be9aeb9ee1413fae2e691c603c9a691bd722e113597b883f21e8380a44d114ab894b435a491bfc939c8478cd57bcf890c585b961343b124964
+  checksum: 93268c33c3bf0194427d696658160c77ab8661aa57107df5b248ff952898a372bf92cf0ba7fc07788fa35e59c69b6619cce63d45e4e67fca806e37da7ea42512
   languageName: node
   linkType: hard
 
@@ -2611,7 +2611,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web-kripik-tempe@workspace:."
   dependencies:
-    "@types/node": "npm:^20.8.5"
+    "@types/node": "npm:^20.10.8"
     autoprefixer: "npm:^10.4.16"
     postcss: "npm:^8.4.31"
     solid-js: "npm:^1.8.1"
